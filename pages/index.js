@@ -110,20 +110,36 @@ export default function Home() {
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Lunacy</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2">Code your dream project</h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a reality.
-              </p>
-              <h4 className="py-4 text-teal-600">Tools I Use</h4>
-              <p className="text-gray-800 py-1">VS Code</p>
-              <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Next.js</p>
-              <p className="text-gray-800 py-1">TailwindCSS</p>
+           <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+                            <Image src={code} width={100} height={100} />
+                            <h3 className="text-lg font-medium pt-8 pb-2">Code your dream project</h3>
+
+                            <p className="py-2">
+                              Do you have an idea for your next great website? Let's make it a reality.
+                            </p>
+
+                            <h4 className="py-4 text-teal-600 font-semibold">Tools I Use</h4>
+
+                            {/* Frontend */}
+                            <h5 className="text-teal-500 font-semibold pt-4">Frontend</h5>
+                            <p className="text-gray-800 py-1">
+                              React, Next.js, Vite, Tailwind CSS.
+                            </p>
+
+                            {/* Backend */}
+                            <h5 className="text-teal-500 font-semibold pt-4">Backend</h5>
+                            <p className="text-gray-800 py-1">
+                              Node.js, Python, C#, Java.
+                            </p>
+
+                            {/* Other Tools */}
+                            <h5 className="text-teal-500 font-semibold pt-4">Other Tools</h5>
+                            <p className="text-gray-800 py-1">
+                              Docker, Git, GitHub.
+                            </p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -198,6 +214,30 @@ export default function Home() {
         </section>
 
       </main>
+  <footer className="py-6 mt-20 bg-teal-600 dark:bg-teal-700 text-white text-center">
+  <p>© {new Date().getFullYear()} Alexinard Simbeye. All rights reserved.</p>
+
+  <div className="flex justify-center gap-8 text-3xl mt-3">
+    <a
+      href="https://github.com/Gas-Liom"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-black"
+    >
+      <AiFillGithub />
+    </a>
+
+    <a
+      href="https://web.facebook.com/alex.simbeye.12"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-blue-200"
+    >
+      <AiFillFacebook />
+    </a>
+  </div>
+</footer>
+
     </div>
   );
 }
