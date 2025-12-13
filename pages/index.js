@@ -85,12 +85,22 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              <p className="text-gray-800">
+                      I am an <span className="text-teal-500">ambitious software engineer</span>, a
+                      lifelong learner, and a problem-solver focused on innovation, impact, and
+                      real-world solutions.
+                      <br />
+                      As a <span className="text-teal-500">pending graduate</span> of
+                      <span className="text-teal-500"> Mzuzu University</span>, I am passionate about
+                      designing and developing digital systems that solve practical challenges.
+                      <br />
+                      My journey is driven by continuous learning, hands-on project development, and
+                      collaboration with diverse teams.
+                      <br />
+                      I am committed to building reliable, scalable, and meaningful software that
+                      creates lasting value.
+                    </p>
+
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
@@ -107,10 +117,10 @@ export default function Home() {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Lunancy</p>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Lunacy</p>
             </div>
 
            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -135,6 +145,12 @@ export default function Home() {
                               Node.js, Python, C#, Java.
                             </p>
 
+                            {/* Database */}
+                            <h5 className="text-teal-500 font-semibold pt-4">Database</h5>
+                            <p className="text-gray-800 py-1">
+                              MySQL, PostgreSQL, MongoDB.
+                            </p>
+
                             {/* Other Tools */}
                             <h5 className="text-teal-500 font-semibold pt-4">Other Tools</h5>
                             <p className="text-gray-800 py-1">
@@ -149,10 +165,12 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can give you tips and tricks.
               </p>
               <h4 className="py-4 text-teal-600">Tools I Use</h4>
-              <p className="text-gray-800 py-1">Communication</p>
-              <p className="text-gray-800 py-1">UML</p>
+              <p className="text-gray-800 py-1">Beginner to inter-mediate software development roadmap</p>
+              <p className="text-gray-800 py-1">UML and Designing</p>
               <p className="text-gray-800 py-1">Agile Methods</p>
               <p className="text-gray-800 py-1">DevOps Guidance</p>
+              <p className="text-gray-800 py-1">Project Management</p>
+              <p className="text-gray-800 py-1">Git and GitHub</p>
             </div>
           </div>
         </section>
