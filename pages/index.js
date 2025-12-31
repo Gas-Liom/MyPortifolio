@@ -280,8 +280,7 @@ export default function Home() {
 
       {/* ================= FOOTER ================= */}
       <footer className="py-6 bg-teal-600 text-white text-center">
-        <p>© 2025 Alexinard Simbeye. All rights reserved.</p>
-
+        <p>© {new Date().getFullYear()} Alexinard Simbeye. All rights reserved.</p>
         <div className="flex justify-center gap-8 text-3xl mt-3">
           <AiFillGithub />
           <AiFillFacebook />
