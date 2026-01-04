@@ -176,6 +176,9 @@ export default function Home() {
       <p className="text-gray-700 py-2">
         A digital hymns application designed for easy access to church hymns.
       </p>
+      <p className="text-gray-700 py-2">
+        Built with Next.js (FrontEnd), Express.js (BackEnd), and PostgreSQL (Database).
+      </p>
 
       <div className="flex justify-between mt-4">
         <a
@@ -211,9 +214,11 @@ export default function Home() {
         Mzuni SDA Church System
       </h4>
       <p className="text-gray-700 py-2">
-        A church management system for member records, events, and communication.
+        A church management system for member records, events, and communication. This helps to automate some of the manual activities of the church
       </p>
-
+      <p className="text-gray-700 py-2">
+        Built with NEXT.js (FrontEnd), Express js (BackEnd), and PostgreSQL (Database).
+      </p>
       <div className="flex justify-between mt-4">
         <a
           href="https://github.com/Gas-Liom/MzuniSDAChurch"
@@ -250,6 +255,9 @@ export default function Home() {
       <p className="text-gray-700 py-2">
         A blockchain-based loan tracking and repayment system for university
         students.
+      </p>
+      <p className="text-gray-700 py-2">
+        Built with Next.js (FrontEnd), Express.js (BackEnd),Hyperledger Fabric (Blockchain) and PostgreSQL (Database - Offchain Storage).
       </p>
 
       <div className="flex justify-between mt-4">
